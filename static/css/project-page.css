@@ -460,3 +460,42 @@ body::-webkit-scrollbar{
   max-width: 14%; /* 图片宽度占据容器的% */
   height: auto; /* 保持图片比例 */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Wave */
+
+.wave-coding {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 三列，每列相等的比例 */
+  gap: 20px; /* 间距大小 */
+  align-items: center;
+  margin: 20px 0;
+}
+
+.wave-coding img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wave-outcome {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  gap: 20px; /* 图片之间的间距 */
+  justify-content: center; /* 水平居中 */
+  margin: 20px 0; /* 上下边距 */
+}
+
+.wave-outcome img {
+  max-width: 100%; /* 图片宽度最大为容器宽度 */
+  height: auto; /* 保持图片比例 */
+}

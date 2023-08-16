@@ -390,3 +390,73 @@ body::-webkit-scrollbar{
 .gasmask-3D-modeling-container + .gasmask-3D-modeling-container {
   margin-left: 20px; /* 调整间隔大小 */
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Shared Dressing Room */
+.shared-dressing-room-storyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* 调整图片和文字之间的间距 */
+  max-width: 800px; /* 调整水平宽度 */
+  margin: 0 auto; /* 水平居中 */
+}
+
+.shared-dressing-room-storyboard-item {
+  flex: 0 0 calc(50% - 5px); /* 调整大小和间距 */
+  padding: 5px;
+  text-align: center;
+}
+
+.shared-dressing-room-storyboard-item img {
+  max-width: 75%; /* 缩小图片比例 */
+  height: auto;
+}
+
+.shared-dressing-room-storyboard-item p {
+  max-width: 80%; /* 调整水平宽度 */
+  margin: 20px auto 30px; /* 调整上、水平和下的边距 */
+}
+
+.shared-dressing-room-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0; /* 调整上下边距 */
+  margin-left: -10px; /* 整体向左移动 10px */
+}
+
+.shared-dressing-room-brand img {
+  max-width: 60%; /* 左边图片宽度占据容器的 60% */
+  height: auto; /* 保持图片比例 */
+}
+
+.shared-dressing-room-brand img:last-child {
+  max-width: 40%; /* 右边图片宽度占据容器的 40% */
+}
+
+.shared-dressing-room-brand img + img {
+  margin-left: 20px; /* 左边图片和右边图片之间的间距 */
+}
+
+.shared-dressing-room-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* 图片之间的间隔 */
+  margin: 20px 0; /* 上下边距 */
+}
+
+.shared-dressing-room-location img {
+  max-width: 14%; /* 图片宽度占据容器的% */
+  height: auto; /* 保持图片比例 */
+}

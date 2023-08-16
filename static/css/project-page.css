@@ -472,7 +472,9 @@ body::-webkit-scrollbar{
 
 
 
-/* Wave */
+
+
+/* wave */
 
 .wave-coding {
   display: grid;
@@ -487,17 +489,61 @@ body::-webkit-scrollbar{
   height: auto;
 }
 
-.wave-outcome {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mccann */
+
+.mccann-wechat {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 调整间距 */
+}
+
+.mccann-wechat iframe {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.mccann-red {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列 */
-  gap: 20px; /* 图片之间的间距 */
-  justify-content: center; /* 水平居中 */
-  margin: 20px 0; /* 上下边距 */
+  grid-template-columns: repeat(2, 1fr); /* 三列，每列相等的比例 */
+  gap: 20px; /* 间距大小 */
+  align-items: center;
+  margin: 20px 0;
 }
 
-.wave-outcome img {
-  max-width: 100%; /* 图片宽度最大为容器宽度 */
-  height: auto; /* 保持图片比例 */
+.mccann-red img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mccann-tiktok {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 三列，每列相等的比例 */
+  gap: 20px; /* 间距大小 */
+  align-items: center;
+  margin: 20px 0;
+}
+
+.mccann-tiktok img {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -511,7 +557,13 @@ body::-webkit-scrollbar{
 
 
 
-/* Wave */
+
+
+
+
+
+
+/* the underground palace */
 
 .the-underground-palace-expriment {
   display: grid;

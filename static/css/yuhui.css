@@ -327,14 +327,15 @@ a:hover {
 	z-index:1;
 	width:40%;
 	max-width:40%;
-	font-family:'Test founders grotesk',sans-serif;
 	color:#fff;
 	font-size:2.5rem;
 	line-height:110%;
-	font-weight:500;
 	letter-spacing:0.1rem;
 	text-transform:uppercase;
 	white-space:pre-line;
+	font-family: futura-pt, sans-serif; 
+	font-weight: 600; 
+	font-style: normal;
 }
 
 .project-li-intro {
@@ -344,8 +345,9 @@ a:hover {
 	width:40%;
 	color:hsla(0,0%,100%,0.73);
 	font-size:1.2rem;
-	font-weight:400;
-	letter-spacing:0.1rem;
+	font-family: futura-pt, sans-serif; 
+	font-weight: 600; 
+	font-style: normal;
 }
 
 .tab {

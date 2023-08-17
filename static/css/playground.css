@@ -167,3 +167,7 @@ a:hover {
 .sketches-intro-container {
 	padding-top:47px;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}

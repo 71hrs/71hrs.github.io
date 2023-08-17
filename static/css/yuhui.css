@@ -426,3 +426,7 @@ a:hover {
 	-ms-flex-item-align:auto;
 	align-self:auto;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}

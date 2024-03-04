@@ -431,3 +431,15 @@ a:hover {
 body::-webkit-scrollbar{
     display: none;
 }
+
+.tab {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+}
+
+.project-li-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+}
+
+.project-li-intro {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+}

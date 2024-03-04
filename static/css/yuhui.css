@@ -432,14 +432,4 @@ body::-webkit-scrollbar{
     display: none;
 }
 
-.tab {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-}
 
-.project-li-title {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-}
-
-.project-li-intro {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-}
